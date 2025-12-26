@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Agencia de Copywriting profesional que transforma palabras en ventas. Aumenta tus conversiones con textos persuasivos que conectan con tu audiencia.">
+    <title>MoneyWords - Transforma Palabras en Ventas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Language Toggle Button -->
+    <button class="language-toggle" id="langToggle" onclick="toggleLanguage()">EN</button>
+
+    <!-- Navigation -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">MoneyWords</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#servicios" data-en="Services" data-es="Servicios">Servicios</a></li>
+                <li><a href="#portfolio" data-en="Success Cases" data-es="Casos de Éxito">Casos de Éxito</a></li>
+                <li><a href="#testimonios" data-en="Testimonials" data-es="Testimonios">Testimonios</a></li>
+                <li><a href="#precios" data-en="Pricing" data-es="Precios">Precios</a></li>
+                <li><a href="#contacto" class="btn btn-primary" data-en="Schedule Call"
+                        data-es="Agenda tu Llamada">Agenda tu Llamada</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content animate-on-scroll">
+                <h1>
+                    <span data-en="Transform Words into" data-es="Transforma Palabras en">Transforma Palabras en</span>
+                    <span class="highlight" data-en="Million-Dollar Sales" data-es="Ventas Millonarias">Ventas
+                        Millonarias</span>
+                </h1>
+                <p data-en="Tired of texts that don't convert? We create persuasive copy that multiplies your sales up to 10x. Over 200 companies already trust us to skyrocket their conversions."
+                    data-es="¿Cansado de textos que no convierten? Creamos copy persuasivo que multiplica tus ventas hasta 10x. Más de 200 empresas ya confían en nosotros para disparar sus conversiones.">
+                    ¿Cansado de textos que no convierten? Creamos copy persuasivo que multiplica tus ventas hasta 10x.
+                    Más de 200 empresas ya confían en nosotros para disparar sus conversiones.
+                </p>
+                <div class="btn-group">
+                    <a href="#contacto" class="btn btn-primary btn-large" data-en="Schedule Your Free Strategic Call"
+                        data-es="Agenda tu Llamada Estratégica Gratuita">Agenda tu Llamada Estratégica Gratuita</a>
+                    <a href="#portfolio" class="btn btn-secondary btn-large" data-en="View Success Cases"
+                        data-es="Ver Casos de Éxito">Ver Casos de Éxito</a>
+                </div>
+
+                <!-- Stats -->
+                <div class="stats">
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-number">+350%</div>
+                        <div class="stat-label" data-en="Average Conversion Increase"
+                            data-es="Aumento Promedio en Conversiones">Aumento Promedio en Conversiones</div>
+                    </div>
+                    <div class="stat-card animate-on-scroll" style="animation-delay: 0.2s;">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label" data-en="Satisfied Clients" data-es="Clientes Satisfechos">Clientes
+                            Satisfechos</div>
+                    </div>
+                    <div class="stat-card animate-on-scroll" style="animation-delay: 0.4s;">
+                        <div class="stat-number">$50M+</div>
+                        <div class="stat-label" data-en="Generated for Clients" data-es="Generados para Clientes">
+                            Generados para Clientes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">📧</div>
+                        <h3 data-en="Email Marketing" data-es="Email Marketing">Email Marketing</h3>
+                        <p data-en="Email sequences that convert subscribers into loyal customers. 45%+ open rates guaranteed."
+                            data-es="Secuencias de emails que convierten suscriptores en clientes leales. Tasas de apertura del 45%+ garantizadas.">
+                            Secuencias de emails que convierten suscriptores en clientes leales. Tasas de apertura del
+                            45%+
+                            garantizadas.</p>
+                    </div>
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">🚀</div>
+                        <h3 data-en="Landing Pages" data-es="Landing Pages">Landing Pages</h3>
+                        <p data-en="Optimized landing pages that convert at 25%+. Every word strategically placed to sell."
+                            data-es="Páginas de aterrizaje optimizadas que convierten al 25%+. Cada palabra estratégicamente colocada para vender.">
+                            Páginas de aterrizaje optimizadas que convierten al 25%+. Cada palabra estratégicamente
+                            colocada
+                            para vender.</p>
+                    </div>
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">�</div>
+                        <h3 data-en="Optimized Messages" data-es="Mensajes Optimizados">Mensajes Optimizados</h3>
+                        <p data-en="Strategic messages for sales and customer response management. We create conversations that convert and build loyalty."
+                            data-es="Mensajes estratégicos para ventas y gestión de respuestas de usuarios. Creamos conversaciones que convierten y fidelizan.">
+                            Mensajes estratégicos para ventas y gestión de respuestas de usuarios. Creamos
+                            conversaciones que convierten y fidelizan.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">🎯</div>
+                        <h3 data-en="Sales Pages" data-es="Sales Pages">Sales Pages</h3>
+                        <p data-en="Sales pages that close deals automatically. Proven structures that convert at 15%+."
+                            data-es="Páginas de ventas que cierran deals automáticamente. Estructuras probadas que convierten al 15%+.">
+                            Páginas de ventas que cierran deals automáticamente. Estructuras probadas que convierten al
+                            15%+.</p>
+                    </div>
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">✍️</div>
+                        <h3 data-en="Web Content" data-es="Contenido Web">Contenido Web</h3>
+                        <p data-en="Texts for your website that position your brand as an authority and generate instant trust."
+                            data-es="Textos para tu sitio web que posicionan tu marca como autoridad y generan confianza instantánea.">
+                            Textos para tu sitio web que posicionan tu marca como autoridad y generan confianza
+                            instantánea.
+                        </p>
+                    </div>
+
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">💼</div>
+                        <h3 data-en="Copy Strategy" data-es="Estrategia de Copy">Estrategia de Copy</h3>
+                        <p data-en="Complete audit + personalized strategy to transform your entire sales funnel."
+                            data-es="Auditoría completa + estrategia personalizada para transformar todo tu funnel de ventas.">
+                            Auditoría completa + estrategia personalizada para transformar todo tu funnel de ventas.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-subtitle" data-en="Testimonials" data-es="Testimonios">Testimonios</div>
+                <h2 data-en="What Our Clients Say" data-es="Lo Que Dicen Nuestros Clientes">Lo Que Dicen Nuestros
+                    Clientes</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text"
+                        data-en="In 60 days we went from $50K to $180K monthly. The copy they created for our emails is simply magical. Each campaign surpasses the previous one. Best investment we've made."
+                        data-es="En 60 días pasamos de $50K a $180K mensuales. El copy que crearon para nuestros emails es simplemente mágico. Cada campaña supera a la anterior. Mejor inversión que hemos hecho.">
+                        "En 60 días pasamos de $50K a $180K mensuales. El copy que crearon para nuestros emails es
+                        simplemente mágico. Cada campaña supera a la anterior. Mejor inversión que hemos hecho."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div class="author-info">
+                            <h4 data-en="María Rodríguez" data-es="María Rodríguez">María Rodríguez</h4>
+                            <div class="author-role" data-en="CEO, Digital Marketing Pro"
+                                data-es="CEO, Digital Marketing Pro">CEO, Digital Marketing Pro</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text"
+                        data-en="We tried 3 agencies before. None understood our product like MoneyWords. Our landing page went from 3% to 18% conversion. 12:1 ROI in the first month."
+                        data-es="Probamos 3 agencias antes. Ninguna entendió nuestro producto como MoneyWords. Nuestra landing pasó de 3% a 18% de conversión. ROI de 12:1 en el primer mes.">
+                        "Probamos 3 agencias antes. Ninguna entendió nuestro producto como MoneyWords. Nuestra landing
+                        pasó de 3% a 18% de conversión. ROI de 12:1 en el primer mes."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JL</div>
+                        <div class="author-info">
+                            <h4 data-en="Jorge López" data-es="Jorge López">Jorge López</h4>
+                            <div class="author-role" data-en="Founder, TechVentures" data-es="Founder, TechVentures">
+                                Founder, TechVentures</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text"
+                        data-en="The copy for our Facebook ads completely changed the game. CPL dropped 67% and lead quality dramatically improved. Incredible team."
+                        data-es="El copy para nuestras ads de Facebook cambió el juego completamente. CPL bajó 67% y la calidad de leads mejoró dramáticamente. Equipo increíble.">
+                        "El copy para nuestras ads de Facebook cambió el juego completamente. CPL bajó 67% y la calidad
+                        de leads mejoró dramáticamente. Equipo increíble."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AC</div>
+                        <div class="author-info">
+                            <h4 data-en="Ana Castillo" data-es="Ana Castillo">Ana Castillo</h4>
+                            <div class="author-role" data-en="CMO, FitnessPro" data-es="CMO, FitnessPro">CMO, FitnessPro
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="precios" class="pricing-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-subtitle" data-en="Investment" data-es="Inversión">Inversión</div>
+                <h2 data-en="Choose the Perfect Plan for Your Business"
+                    data-es="Elige el Plan Perfecto para Tu Negocio">Elige el Plan Perfecto para Tu Negocio</h2>
+                <p data-en="Every dollar invested in professional copy returns 10x in sales"
+                    data-es="Cada dólar invertido en copy profesional retorna 10x en ventas">Cada dólar invertido en
+                    copy profesional retorna 10x en ventas</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card animate-on-scroll">
+                    <h3 data-en="Starter" data-es="Starter">Starter</h3>
+                    <div class="pricing-price">$997</div>
+                    <div class="pricing-period" data-en="One-time project" data-es="Proyecto único">Proyecto único</div>
+                    <ul class="pricing-features">
+                        <li data-en="1 optimized Landing Page" data-es="1 Landing Page optimizada">1 Landing Page
+                            optimizada</li>
+                        <li data-en="5 Email sequence" data-es="5 Emails de secuencia">5 Emails de secuencia</li>
+                        <li data-en="Copy for 3 ads" data-es="Copy para 3 ads">Copy para 3 ads</li>
+                        <li data-en="2 rounds of revisions" data-es="2 rondas de revisiones">2 rondas de revisiones</li>
+                        <li data-en="Delivery in 7 days" data-es="Entrega en 7 días">Entrega en 7 días</li>
+                        <li data-en="Satisfaction guarantee" data-es="Garantía de satisfacción">Garantía de satisfacción
+                        </li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-secondary btn-large" data-en="Start Now"
+                        data-es="Comenzar Ahora">Comenzar Ahora</a>
+                </div>
+
+                <div class="pricing-card featured animate-on-scroll">
+                    <div class="pricing-badge" data-en="MOST POPULAR" data-es="MÁS POPULAR">MÁS POPULAR</div>
+                    <h3 data-en="Growth" data-es="Growth">Growth</h3>
+                    <div class="pricing-price">$2,497</div>
+                    <div class="pricing-period" data-en="Per month" data-es="Por mes">Por mes</div>
+                    <ul class="pricing-features">
+                        <li data-en="Everything in Starter +" data-es="Todo en Starter +">Todo en Starter +</li>
+                        <li data-en="3 Landing Pages" data-es="3 Landing Pages">3 Landing Pages</li>
+                        <li data-en="Complete email sequence" data-es="Secuencia completa de emails">Secuencia completa
+                            de emails</li>
+                        <li data-en="Professional sales page" data-es="Sales page profesional">Sales page profesional
+                        </li>
+                        <li data-en="10 ads per month" data-es="10 ads por mes">10 ads por mes</li>
+                        <li data-en="Monthly strategy" data-es="Estrategia mensual">Estrategia mensual</li>
+                        <li data-en="Unlimited revisions" data-es="Revisiones ilimitadas">Revisiones ilimitadas</li>
+                        <li data-en="Priority support" data-es="Soporte prioritario">Soporte prioritario</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary btn-large" data-en="Schedule Your Call"
+                        data-es="Agenda tu Llamada">Agenda tu Llamada</a>
+                </div>
+
+                <div class="pricing-card animate-on-scroll">
+                    <h3 data-en="Enterprise" data-es="Enterprise">Enterprise</h3>
+                    <div class="pricing-price">Custom</div>
+                    <div class="pricing-period" data-en="Personalized" data-es="Personalizado">Personalizado</div>
+                    <ul class="pricing-features">
+                        <li data-en="Everything in Growth +" data-es="Todo en Growth +">Todo en Growth +</li>
+                        <li data-en="Unlimited projects" data-es="Proyectos ilimitados">Proyectos ilimitados</li>
+                        <li data-en="Dedicated team" data-es="Equipo dedicado">Equipo dedicado</li>
+                        <li data-en="Comprehensive strategy" data-es="Estrategia integral">Estrategia integral</li>
+                        <li data-en="Continuous A/B testing" data-es="A/B testing continuo">A/B testing continuo</li>
+                        <li data-en="Competitor analysis" data-es="Análisis de competencia">Análisis de competencia</li>
+                        <li data-en="Strategic consulting" data-es="Consultoría estratégica">Consultoría estratégica
+                        </li>
+                        <li data-en="Exclusive account manager" data-es="Account manager exclusivo">Account manager
+                            exclusivo</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-secondary btn-large" data-en="Let's Talk"
+                        data-es="Hablemos">Hablemos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contacto" class="cta">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2 data-en="Ready to Multiply Your Sales?" data-es="¿Listo para Multiplicar tus Ventas?">¿Listo para
+                    Multiplicar tus Ventas?</h2>
+                <p data-en="Schedule a free 30-minute strategic call. We'll analyze your business and show you exactly how we can increase your conversions in the next 90 days."
+                    data-es="Agenda una llamada estratégica gratuita de 30 minutos. Analizaremos tu negocio y te mostraremos exactamente cómo podemos aumentar tus conversiones en los próximos 90 días.">
+                    Agenda una llamada estratégica gratuita de 30 minutos. Analizaremos tu negocio y te mostraremos
+                    exactamente cómo podemos aumentar tus conversiones en los próximos 90 días.
+                </p>
+                <p style="font-weight: 600; font-size: 1.1rem; margin-top: 1.5rem;"
+                    data-en="⚡ Only 3 spots available this week ⚡" data-es="⚡ Solo 3 spots disponibles esta semana ⚡">
+                    ⚡ Solo 3 spots disponibles esta semana ⚡
+                </p>
+                <a href="https://calendly.com" class="btn btn-white btn-large" style="margin-top: 1.5rem;"
+                    data-en="Yes, I Want to Transform My Business Now"
+                    data-es="Sí, Quiero Transformar Mi Negocio Ahora">
+                    Sí, Quiero Transformar Mi Negocio Ahora
+                </a>
+                <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.9;"
+                    data-en="No commitment • 100% free call • Guaranteed results"
+                    data-es="Sin compromiso • Llamada 100% gratuita • Resultados garantizados">
+                    Sin compromiso • Llamada 100% gratuita • Resultados garantizados
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-en="MoneyWords" data-es="MoneyWords">MoneyWords</h3>
+                    <p data-en="We transform words into million-dollar sales. Your strategic partner in persuasive copywriting."
+                        data-es="Transformamos palabras en ventas millonarias. Tu socio estratégico en copywriting persuasivo.">
+                        Transformamos palabras en ventas millonarias. Tu socio estratégico en copywriting persuasivo.
+                    </p>
+
+                    <div class="footer-section">
+                        <h3 data-en="Services" data-es="Servicios">Servicios</h3>
+                        <ul class="footer-links">
+                            <li><a href="#servicios" data-en="Email Marketing" data-es="Email Marketing">Email
+                                    Marketing</a>
+                            </li>
+                            <li><a href="#servicios" data-en="Landing Pages" data-es="Landing Pages">Landing Pages</a>
+                            </li>
+                            <li><a href="#servicios" data-en="Social Media" data-es="Redes Sociales">Redes Sociales</a>
+                            </li>
+                            <li><a href="#servicios" data-en="Sales Pages" data-es="Sales Pages">Sales Pages</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3 data-en="Company" data-es="Empresa">Empresa</h3>
+                        <ul class="footer-links">
+                            <li><a href="#portfolio" data-en="Success Cases" data-es="Casos de Éxito">Casos de Éxito</a>
+                            </li>
+                            <li><a href="#testimonios" data-en="Testimonials" data-es="Testimonios">Testimonios</a></li>
+                            <li><a href="#precios" data-en="Pricing" data-es="Precios">Precios</a></li>
+                            <li><a href="#contacto" data-en="Contact" data-es="Contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3 data-en="Contact" data-es="Contacto">Contacto</h3>
+                        <p>📧 moneywords@outlook.com</p>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2024 MoneyWords. <span data-en="All rights reserved."
+                            data-es="Todos los derechos reservados.">Todos los derechos reservados.</span> | <span
+                            data-en="Privacy Policy" data-es="Política de Privacidad">Política de Privacidad</span> |
+                        <span data-en="Terms of Service" data-es="Términos de Servicio">Términos de Servicio</span></p>
+                </div>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
